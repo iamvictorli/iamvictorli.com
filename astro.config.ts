@@ -1,4 +1,4 @@
-// @ts-check
+import sitemap from '@astrojs/sitemap'
 import { defineConfig } from 'astro/config'
 import robotsTxt from 'astro-robots-txt'
 
@@ -6,6 +6,7 @@ import robotsTxt from 'astro-robots-txt'
 export default defineConfig({
   site: 'https://iamvictorli.com',
   integrations: [
+    sitemap(),
     robotsTxt(),
   ],
 })
