@@ -10,10 +10,10 @@ Oct 21, 2024
 ## Emphasis
 
 ```
-**bold** _italics_ ~~strikethrough~~ ==mark==
+**bold** _italics_ ~~strikethrough~~ <mark>highlight</mark>
 ```
 
-**bold** _italics_ ~~strikethrough~~ ==mark==
+**bold** _italics_ ~~strikethrough~~ <mark>highlight</mark>
 
 ---
 
@@ -58,6 +58,20 @@ Oct 21, 2024
 1. Numbered list item
 2. Numbered list item
 3. Numbered list item
+
+---
+
+## Task Lists
+
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
 
 ---
 
