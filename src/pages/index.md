@@ -3,6 +3,6 @@ layout: ~/layouts/BaseLayout.astro
 title: Home
 ---
 
-# Hello World From Victor
+I'm Victor, a software engineer based in San Francisco
 
-Updating from github mobile
+Connect with me on [github](https://github.com/iamvictorli) or [linkedin](https://www.linkedin.com/in/iamvictorli/).

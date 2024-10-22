@@ -8,7 +8,7 @@ const { frontmatter } = Astro.props
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{frontmatter.title}</title>
-    <style>
+    <style is:global>
       :root {
         --width: 720px;
         --font-main: Verdana, sans-serif;
@@ -171,9 +171,10 @@ const { frontmatter } = Astro.props
     </style>
   </head>
   <body>
-    <!-- TODO: should we use anchor tag for h1, to go back home? -->
     <header>
-      <h1>{frontmatter.title}</h1>
+      <a class="title" href="/">
+        <h1>Victor Li</h1>
+      </a>
     </header>
     <nav>
       <p>

@@ -1,0 +1,200 @@
+---
+layout: ~/layouts/BaseLayout.astro
+title: Kitchen Sink
+---
+
+# Markdown Kitchen Sink
+
+Oct 21, 2024
+
+## Emphasis
+
+```
+**bold** _italics_ ~~strikethrough~~ ==mark==
+```
+
+**bold** _italics_ ~~strikethrough~~ ==mark==
+
+---
+
+## Headers
+
+```
+# Big header
+
+## Medium header
+
+### Small header
+
+#### Tiny header
+```
+
+# Big header
+
+## Medium header
+
+### Small header
+
+#### Tiny header
+
+---
+
+## Lists
+
+```
+- Generic list item
+- Generic list item
+- Generic list item
+
+1. Numbered list item
+2. Numbered list item
+3. Numbered list item
+```
+
+- Generic list item
+- Generic list item
+- Generic list item
+
+1. Numbered list item
+2. Numbered list item
+3. Numbered list item
+
+---
+
+## Links
+
+```
+<http://www.example.com>
+
+[Open in same tab](http://www.example.com)
+
+Or use the heading id (the slugified name of the header) as an internal link...
+
+[Internal link](#headers)
+```
+
+<http://www.example.com>
+
+[Open in same tab](http://www.example.com)
+
+Or use the heading id (the slugified name of the header) as an internal link...
+
+[Internal link](#headers)
+
+---
+
+## Linebreaks
+
+Adding a single line break will not be rendered as a line break.
+
+```
+Here's some text.
+Here's some more text.
+```
+
+Here's some text.
+Here's some more text.
+
+To add a single line break use a \ or two spaces at the end of the line.
+
+```
+Here's some text.\
+Here's some more text.
+```
+
+Here's some text.\
+Here's some more text.
+
+Adding 2 line breaks starts a new paragraph.
+
+```
+Here is one paragraph with lengthly text.
+
+Here is another.
+```
+
+Here is one paragraph with lengthly text.
+
+Here is another.
+
+---
+
+## Footnotes
+
+```
+Here is a simple footnote,[^1] and here is a longer one.[^named-note]
+
+Then at the bottom of your post...
+
+[^1]: This is the first footnote.
+
+[^named-note]: Here is another one.
+```
+
+Here is a simple footnote,[^1] and here is a longer one.[^named-note]
+
+Then at the bottom of your post...
+
+---
+
+## Quotes
+
+```
+> This is a quote.
+>
+> It can span multiple lines!
+```
+
+> This is a quote.
+>
+> It can span multiple lines!
+
+---
+
+## Images
+
+```
+![Cheatsheet image example](https://i.ibb.co/Vvh17pr/3jxqrKP.jpg)
+```
+
+![Cheatsheet image example](https://i.ibb.co/Vvh17pr/3jxqrKP.jpg)
+
+---
+
+## Tables
+
+```
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+| John     | Doe      | Male     |
+| Mary     | Smith    | Female   |
+```
+
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+| John     | Doe      | Male     |
+| Mary     | Smith    | Female   |
+
+---
+
+## Displaying code
+
+````
+```javascript
+const example = "hello!";
+console.log(example);
+```
+````
+
+```javascript
+const example = 'hello!'
+console.log(example)
+```
+
+_For language specific syntax highlighting, specify the language at the beginning of the code block._
+
+---
+
+[^1]: This is the first footnote.
+
+[^named-note]: Here is another one.
