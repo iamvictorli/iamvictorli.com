@@ -169,9 +169,14 @@ Then at the bottom of your post...
 
 ```
 ![Cheatsheet image example](https://i.ibb.co/Vvh17pr/3jxqrKP.jpg)
+
+<img src="https://github.com/iamvictorli.png" alt="Victor Li" width="260" height="260"/>
+
 ```
 
 ![Cheatsheet image example](https://i.ibb.co/Vvh17pr/3jxqrKP.jpg)
+
+<img src="https://github.com/iamvictorli.png" alt="Victor Li" width="260" height="260"/>
 
 ---
 

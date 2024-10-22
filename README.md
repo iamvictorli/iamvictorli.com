@@ -50,5 +50,6 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 <!-- TODO: get date added from markdown file, github file date added?>
 <!-- TODO: Use time tag for content collection>
 <!-- TODO: All the SEO tags -->
-<!-- TODO: Image Profile -->
-<!-- TODO: light mode/dark mode>
+<!-- TODO: Embed val.town, react sandbox (stackedit OR codesandbox), expo snack, github gist, github file>
+<!-- TODO: environment variables?>
+<!-- TODO: Add resume>
