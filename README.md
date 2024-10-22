@@ -47,7 +47,7 @@ All commands are run from the root of the project, from a terminal:
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
 <!-- TODO: All the SEO tags -->
-<!-- TODO: Embed val.town, react sandbox (stackedit OR codesandbox), expo snack, github gist, github file>
+<!-- TODO: Embed react sandbox (stackedit OR codesandbox), expo snack, github gist, github file>
 <!-- TODO: Tags>
 <!-- TODO: Now>
 

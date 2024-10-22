@@ -242,9 +242,13 @@ This is how you dropdown.
 
 ---
 
-## Github Gist
+## Valtown
 
-<iframe src="https://gist.github.com/iamvictorli/e6981f3a0d7c72be7509c14ca4f02452.js" width="100%" height="500px"></script>
+```
+<iframe width="100%" height="400px" src="https://www.val.town/embed/victorli/aigreeting" title="Val Town" frameborder="0" allow="web-share" allowfullscreen></iframe>
+```
+
+<iframe width="100%" height="400px" src="https://www.val.town/embed/victorli/aigreeting" title="Val Town" frameborder="0" allow="web-share" allowfullscreen></iframe>
 
 ---
 
