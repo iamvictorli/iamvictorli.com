@@ -5,7 +5,7 @@ title: Kitchen Sink
 
 # Markdown Kitchen Sink
 
-Oct 21, 2024
+<time>Oct 21, 2024</time>
 
 ## Emphasis
 
