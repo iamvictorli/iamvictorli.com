@@ -120,6 +120,14 @@ const { frontmatter } = Astro.props
         text-align: center;
       }
 
+      .title:hover {
+        text-decoration: none;
+      }
+
+      .title h1 {
+        font-size: 1.5em;
+      }
+
       pre.astro-code {
         background-color: var(--code-background-color) !important;
         border-radius: 3px;
@@ -135,17 +143,9 @@ const { frontmatter } = Astro.props
         padding: unset;
       }
 
-      /* .title:hover {
-        text-decoration: none;
-      }
-
-      .title h1 {
-        font-size: 1.5em;
-      }
-
-      .inline {
+      /* .inline {
         width: auto !important;
-      }
+      } */
 
       /* blog post list */
       /* ul.blog-posts {
