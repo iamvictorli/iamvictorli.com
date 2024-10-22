@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content'
+
+import BaseLayout from '~/layouts/BaseLayout.astro'
+
+const blogEntries = (await getCollection('blog')).sort((a, b) => {
+  return new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+})
+---
+
+<BaseLayout title="Blogs">
+  <ul class="blog-posts">
+    {
+      blogEntries.map((blogPostEntry) => (
+        <li>
+          <span>
+            <time datetime={blogPostEntry.data.date}>{blogPostEntry.data.date}</time>
+          </span>
+          <a href={`/blog/${blogPostEntry.slug}`}>{blogPostEntry.data.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>

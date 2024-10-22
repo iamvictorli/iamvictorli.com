@@ -1,5 +1,9 @@
 ---
-const { frontmatter } = Astro.props
+interface Props {
+  title: string
+}
+
+const { title } = Astro.props
 ---
 
 <!doctype html>
@@ -7,7 +11,7 @@ const { frontmatter } = Astro.props
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{frontmatter.title}</title>
+    <title>{title}</title>
     <style is:global>
       :root {
         --width: 720px;
@@ -128,27 +132,10 @@ const { frontmatter } = Astro.props
         font-size: 1.5em;
       }
 
-      pre.astro-code {
-        background-color: var(--code-background-color) !important;
-        border-radius: 3px;
-        color: var(--code-color) !important;
-        padding: 15px 15px;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        font-family: monospace;
-      }
-
-      ul.contains-task-list {
-        list-style-type: none;
-        padding: unset;
-      }
-
-      /* .inline {
-        width: auto !important;
-      } */
-
       /* blog post list */
-      /* ul.blog-posts {
+      ul.blog-posts,
+      /* for tasks list */
+      ul.contains-task-list {
         list-style-type: none;
         padding: unset;
       }
@@ -163,7 +150,17 @@ const { frontmatter } = Astro.props
 
       ul.blog-posts li a:visited {
         color: var(--visited-color);
-      } */
+      }
+
+      pre.astro-code {
+        background-color: var(--code-background-color) !important;
+        border-radius: 3px;
+        color: var(--code-color) !important;
+        padding: 15px 15px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        font-family: monospace;
+      }
     </style>
   </head>
   <body>

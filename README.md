@@ -46,10 +46,12 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-<!-- TODO: content collection, https://docs.astro.build/en/guides/content-collections/ -->
 <!-- TODO: get date added from markdown file, github file date added?>
-<!-- TODO: Use time tag for content collection>
 <!-- TODO: All the SEO tags -->
 <!-- TODO: Embed val.town, react sandbox (stackedit OR codesandbox), expo snack, github gist, github file>
 <!-- TODO: environment variables?>
 <!-- TODO: Add resume>
+<!-- TODO: Add 404 page>
+<!-- TODO: Search>
+<!-- TODO: Tags>
+<!-- TODO: Now>
