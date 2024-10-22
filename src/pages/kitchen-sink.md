@@ -195,6 +195,34 @@ _For language specific syntax highlighting, specify the language at the beginnin
 
 ---
 
+## Dropdown
+
+```
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+</details>
+```
+
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+</details>
+
+---
+
+## Youtube Embed
+
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
+```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8IHhvkaVqVE" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
 [^1]: This is the first footnote.
 
 [^named-note]: Here is another one.
