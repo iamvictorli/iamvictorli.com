@@ -168,13 +168,13 @@ Then at the bottom of your post...
 ## Images
 
 ```
-![Cheatsheet image example](https://i.ibb.co/Vvh17pr/3jxqrKP.jpg)
+![Cheatsheet img example](https://i.ibb.co/Vvh17pr/3jxqrKP.jpg)
 
 <img src="https://github.com/iamvictorli.png" alt="Victor Li" width="260" height="260"/>
 
 ```
 
-![Cheatsheet image example](https://i.ibb.co/Vvh17pr/3jxqrKP.jpg)
+![Cheatsheet img example](https://i.ibb.co/Vvh17pr/3jxqrKP.jpg)
 
 <img src="https://github.com/iamvictorli.png" alt="Victor Li" width="260" height="260"/>
 
@@ -235,10 +235,10 @@ This is how you dropdown.
 ## Youtube Embed
 
 ```
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8IHhvkaVqVE" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8IHhvkaVqVE" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 
 ---
 
@@ -248,7 +248,16 @@ This is how you dropdown.
 <iframe width="100%" height="400px" src="https://www.val.town/embed/victorli/aigreeting" title="Val Town" frameborder="0" allow="web-share" allowfullscreen></iframe>
 ```
 
-<iframe width="100%" height="400px" src="https://www.val.town/embed/victorli/aigreeting" title="Val Town" frameborder="0" allow="web-share" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.val.town/embed/victorli/aigreeting" title="Val Town" frameborder="0" allow="web-share" allowfullscreen loading="lazy"></iframe>
+
+---
+
+## TODO Task
+
+- [ ] Repl to run typescript/javascript and install dependencies. runkit, playcode.io, repl.it, or stick with valtown, would be nice to support url imports?
+- [ ] Cloud IDE to run quick react/web prototype, use stackblitz, codesandbox, gitpod
+- [ ] Snack Expo to show off React Native projects
+- [ ] Analytics with plausible free hosting
 
 ---
 
