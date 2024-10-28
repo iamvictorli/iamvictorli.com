@@ -252,12 +252,12 @@ This is how you dropdown.
 
 ---
 
-## TODO Task
+## Support iframe prototypes
 
-- [ ] Repl to run typescript/javascript and install dependencies. runkit, playcode.io, repl.it, or stick with valtown, would be nice to support url imports?
-- [ ] Cloud IDE to run quick react/web prototype, use stackblitz, codesandbox, gitpod
-- [ ] Snack Expo to show off React Native projects
-- [ ] Analytics with plausible free hosting
+- [ ] Repl to run typescript/javascript and install dependencies. [runkit](https://runkit.com/home), [playcode.io](https://playcode.io/), [repl.it](https://replit.com/), or stick with [valtown](https://www.val.town/), would be nice to support url imports?
+- [ ] Cloud IDE to run quick react/web prototype, use [stackblitz](https://stackblitz.com/), [codesandbox](https://codesandbox.io/), [gitpod](https://www.gitpod.io/)
+- [ ] [Expo Snack](https://github.com/expo/snack) to show off React Native projects
+- [ ] Analytics with [Plausible](https://plausible.io/) self hosting
 
 ---
 
