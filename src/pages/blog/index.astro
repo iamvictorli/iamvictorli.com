@@ -8,7 +8,7 @@ const blogEntries = (await getCollection('blog')).sort((a, b) => {
 })
 ---
 
-<BaseLayout title="Blog">
+<BaseLayout title="Victor Li's Blog">
   <ul class="blog-posts">
     {
       blogEntries.map((blogPostEntry) => (

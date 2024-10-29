@@ -1,6 +1,6 @@
 ---
 layout: ~/layouts/BaseLayout.astro
-title: Projects
+title: Victor Li's Projects
 ---
 
 # Projects
