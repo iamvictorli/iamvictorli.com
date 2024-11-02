@@ -1,7 +1,7 @@
 ---
 layout: ~/layouts/BaseLayout.astro
 title: Victor Li
-description: Victor Li
+description: Victor Li's Personal Website
 ---
 
 I'm Victor, a software engineer based in San Francisco

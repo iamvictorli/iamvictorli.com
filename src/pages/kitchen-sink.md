@@ -258,6 +258,7 @@ This is how you dropdown.
 - [ ] Cloud IDE to run quick react/web prototype, use [stackblitz](https://stackblitz.com/), [codesandbox](https://codesandbox.io/), [gitpod](https://www.gitpod.io/)
 - [ ] [Expo Snack](https://github.com/expo/snack) to show off React Native projects
 - [ ] Analytics with [Plausible](https://plausible.io/) self hosting
+- [ ] Put RSS feed?
 
 ---
 
