@@ -1,10 +1,7 @@
 ---
 title: Hello World
-date: 10/21/2024
-description: Hello World First Blog post
+description: First Blog post
 ---
-
-Hello world
 
 This is the first blog post of my personal site, built with [Astro](https://astro.build/) with markdown pages. I love astro's philosophy in making it easy to create static sites.
 
