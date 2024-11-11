@@ -37,7 +37,10 @@ export async function getDatesForFile(file: string) {
   })
 
   if (commits.length === 0) {
-    throw new Error('No commits found for this file')
+    return {
+      publishedDate: new Date().toISOString(),
+      lastModifiedDate: null,
+    }
   }
 
   return {
