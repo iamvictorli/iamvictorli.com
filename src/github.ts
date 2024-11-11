@@ -39,7 +39,7 @@ export async function getDatesForFile(file: string) {
   if (commits.length === 0) {
     return {
       publishedDate: new Date().toISOString(),
-      lastModifiedDate: null,
+      lastModifiedDate: new Date().toISOString(),
     }
   }
 
