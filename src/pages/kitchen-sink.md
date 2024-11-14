@@ -171,12 +171,25 @@ Then at the bottom of your post...
 ![Cheatsheet img example](https://i.ibb.co/Vvh17pr/3jxqrKP.jpg)
 
 <img src="https://github.com/iamvictorli.png" alt="Victor Li" width="260" height="260"/>
-
 ```
 
 ![Cheatsheet img example](https://i.ibb.co/Vvh17pr/3jxqrKP.jpg)
 
 <img src="https://github.com/iamvictorli.png" alt="Victor Li" width="260" height="260"/>
+
+---
+
+## Gif
+
+```
+![](src/assets/demo.gif)
+
+![](https://github.com/Li-Victor/ChartCrypto/blob/master/1.gif?raw=true)
+```
+
+![](src/assets/demo.gif)
+
+![](https://github.com/Li-Victor/ChartCrypto/blob/master/1.gif?raw=true)
 
 ---
 
