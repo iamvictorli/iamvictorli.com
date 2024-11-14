@@ -182,12 +182,12 @@ Then at the bottom of your post...
 ## Gif
 
 ```
-![](https://github.com/iamvictorli/iamvictorli.com/blog/main/src/assets/demo.gif?raw=true)
+![](https://github.com/iamvictorli/iamvictorli.com/blob/main/src/assets/demo.gif?raw=true)
 
 ![](https://github.com/iamvictorli/ChartCrypto/blob/master/1.gif?raw=true)
 ```
 
-![](https://github.com/iamvictorli/iamvictorli.com/blog/main/src/assets/demo.gif?raw=true)
+![](https://github.com/iamvictorli/iamvictorli.com/blob/main/src/assets/demo.gif?raw=true)
 
 ![](https://github.com/iamvictorli/ChartCrypto/blob/master/1.gif?raw=true)
 
