@@ -7,6 +7,8 @@ This is the first blog post of my personal site, built with [Astro](https://astr
 
 Currently I'm only using markdown files for now, but [Astro](https://astro.build/) also supports [MDX](https://docs.astro.build/en/basics/astro-pages/#markdownmdx-pages). I'm not sure when I'll switch to use MDX, but for now I'll stick with markdown.
 
+[Github Repo](https://github.com/iamvictorli/iamvictorli.com)
+
 Site is hosted on [cloudflare pages](https://pages.cloudflare.com/)
 
 To setup on cloudflare pages, I used https://tanis.codes/posts/deploy-hugo-website-to-cloudflare/ as a reference. Even through the tutorial is about deploying a [Hugo](https://gohugo.io/) site, it follows the same structure. One of the best features with cloudflare pages is the github integration for automated deployments, branch/commit deployments, and supporting rollbacks as well.
