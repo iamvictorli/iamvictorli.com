@@ -267,11 +267,18 @@ This is how you dropdown.
 
 ## Support iframe prototypes
 
-- [ ] Repl to run typescript/javascript and install dependencies. [runkit](https://runkit.com/home), [playcode.io](https://playcode.io/), [repl.it](https://replit.com/), or stick with [valtown](https://www.val.town/), would be nice to support url imports?
+- [ ] Node repl to run typescript/javascript and install dependencies. [runkit](https://runkit.com/home), [playcode.io](https://playcode.io/), [repl.it](https://replit.com/), or stick with [valtown](https://www.val.town/), need to support importing libraries/url imports.
 - [ ] Cloud IDE to run quick react/web prototype, use [stackblitz](https://stackblitz.com/), [codesandbox](https://codesandbox.io/), [gitpod](https://www.gitpod.io/)
 - [ ] [Expo Snack](https://github.com/expo/snack) to show off React Native projects
-- [ ] Analytics with [Plausible](https://plausible.io/) self hosting
-- [ ] Put RSS feed?
+
+---
+
+## Optional
+
+- [ ] Analytics, https://github.com/Destiner/astro-analytics
+- [ ] Put RSS feed? https://docs.astro.build/en/guides/rss/
+- [ ] Search for blog post, Either search by titles or try [page find](https://github.com/cloudcannon/pagefind), algolia, or meilisearch
+- [ ] Tags, being able to search by tags
 
 ---
 
