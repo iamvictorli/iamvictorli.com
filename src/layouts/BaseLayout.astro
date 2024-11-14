@@ -59,6 +59,7 @@ const webPageData = {
   inLanguage: 'en',
   about: description,
 }
+const isProd = import.meta.env.PROD
 ---
 
 <!doctype html>
@@ -274,6 +275,16 @@ const webPageData = {
         font-family: monospace;
       }
     </style>
+    {
+      isProd ? (
+        <script
+          is:inline
+          defer
+          data-domain="iamvictorli.com"
+          src="https://iamvictorli-plausible-analytics-ce.up.railway.app/js/script.js"
+        />
+      ) : null
+    }
   </head>
   <body>
     <header>
