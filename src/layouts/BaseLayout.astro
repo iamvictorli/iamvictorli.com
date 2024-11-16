@@ -275,6 +275,15 @@ const isProd = import.meta.env.PROD
         font-family: monospace;
       }
     </style>
+    {
+      isProd ? (
+        <script
+          is:inline
+          src="https://cloud.umami.is/script.js"
+          data-website-id="b6fcbcca-55fc-44da-94b3-f160f56023ae"
+        />
+      ) : null
+    }
   </head>
   <body>
     <header>
