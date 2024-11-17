@@ -1,11 +1,11 @@
 ---
-title: Setting up Web analytics
-description: Setting up Web analytics
+title: Setting up Web Analytics
+description: Setting up Web Analytics
 ---
 
 When it came to setting up web analytics for my website, I ended using [Umami](https://umami.is/).
 
-You can view my site's public analytics here: [iamvictorli.com Web Analytics](https://cloud.umami.is/share/Q7sqwpDZFsrTdDeu/iamvictorli.com)
+You can view my site's public analytics here: [iamvictorli.com analytics](https://cloud.umami.is/share/Q7sqwpDZFsrTdDeu/iamvictorli.com)
 
 Why Umami:
 
@@ -17,9 +17,11 @@ Why Umami:
 
 Here's how I integrated Umami. The snippet dynamically loads the analytics script only in production mode:
 
-```javascript
+```astro
+---
 const isProd = import.meta.env.PROD
 ---
+
 {
   isProd ? (
     <script is:inline src="https://cloud.umami.is/script.js" data-website-id="b6fcbcca-55fc-44da-94b3-f160f56023ae" />
