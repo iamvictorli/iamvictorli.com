@@ -1,37 +1,49 @@
 ---
-title: Set up web analytics for FREE
-description: Set up web analytics for FREE
+title: Setting up Web analytics
+description: Setting up Web analytics
 ---
 
-Try Using Umami for web analytics
+When it came to setting up web analytics for my website, I ended using [Umami](https://umami.is/).
 
-<!-- TODO: use chatgpt to setup catchy title and description -->
+You can view my site's public analytics here: [iamvictorli.com Web Analytics](https://cloud.umami.is/share/Q7sqwpDZFsrTdDeu/iamvictorli.com)
 
-I recently setup web analytics for this website with the self hosting [Plausible Community Edition](https://plausible.io/self-hosted-web-analytics)
+Why Umami:
 
-[Public web analytics for this site](https://web-analytics.iamvictorli.com/iamvictorli.com)
+- **Free tier**: Generous enough for personal and small projects.
+- **Easy setup**: minimal effort to setup. Add website and add a script tag.
+- **Open source**: [Github Repo](https://github.com/umami-software/umami)
 
-Set up in Railway
+## My Integration Code
 
-https://www.youtube.com/watch?v=p1YnUobgngo
+Here's how I integrated Umami. The snippet dynamically loads the analytics script only in production mode:
 
-Public Analytics for iamvictorli.com
-https://web-analytics.iamvictorli.com/iamvictorli.com
+```javascript
+const isProd = import.meta.env.PROD
+---
+{
+  isProd ? (
+    <script is:inline src="https://cloud.umami.is/script.js" data-website-id="b6fcbcca-55fc-44da-94b3-f160f56023ae" />
+  ) : null
+}
+```
 
-Setting up a custom domain through cloudflare
+[Code in my project's repo](https://github.com/iamvictorli/iamvictorli.com/blob/d317afb3c3626b0fdf0774d88bb4e2b08d1f61b5/src/layouts/BaseLayout.astro#L278-L286)
 
-- [ ] Set up Plausible for web analytics, custom domain, show my domain, add embed? Put into cloudflare
+## Self-Hosting: A Flexible Alternative
 
-Had to restart railway service
+Both Umami and Plausible support self-hosting, which can be a great option if you want:
 
-Other Analytics also included in
+- **Full control**: Complete ownership over your data and server environment.
+- **Cost efficiency**: Reduced long-term costs by leveraging your own hosting.
 
-https://github.com/Destiner/astro-analytics
+### Self-Hosting Resources for Umami:
 
-https://stephenhaney.com/2023/self-hosting-plausible-web-analytics/
+- https://www.youtube.com/watch?v=Z4KPslyoxyM
 
-https://flaviocopes.com/how-to-self-host-plausible-analytics/
+### Self-Hosting Resources for Plausible:
 
-Clickhouse is expensive to host
+- https://stephenhaney.com/2023/self-hosting-plausible-web-analytics/
+- https://flaviocopes.com/how-to-self-host-plausible-analytics/
+- https://www.youtube.com/watch?v=p1YnUobgngo
 
-It was costing $1 per 3 days in railway
+List of great analytics with Astro: https://github.com/Destiner/astro-analytics
