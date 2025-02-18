@@ -275,7 +275,6 @@ This is how you dropdown.
 
 ## Optional
 
-- [ ] Analytics, https://github.com/Destiner/astro-analytics
 - [ ] Put RSS feed? https://docs.astro.build/en/guides/rss/
 - [ ] Search for blog post, Either search by titles or try [page find](https://github.com/cloudcannon/pagefind), algolia, or meilisearch
 - [ ] Tags, being able to search by tags

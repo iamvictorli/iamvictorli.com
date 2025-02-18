@@ -40,14 +40,15 @@ What I also love is it type checks the openapi examples as well
 ### The Development workflow
 
 1. **Define Schemas and Routes Route**: Write Zod schemas for both request and responses. Include clear descriptions and examples, which will be part of the generated documentation.
-2. **Implement Handlers**: Implement response aligned with the response schema. Hono with **@hono/zod-openapi**, ensures request validation and typed response validation.
-3. **Generate Documentation**: With the schemas already defined, zod-to-openapi automatically produces your OpenAPI specification. You can then serve the documentation and explore it using tools like Swagger UI or [Scaler Docs](https://scalar.com/).
+2. **Implement Handlers**: Implement response aligned with the response schema. Hono with **@hono/zod-openapi**, ensures **typed** request validation and **typed** response validation.
+3. **Generate Documentation**: With all the schemas already defined, zod-to-openapi automatically produces your OpenAPI specification. You can then serve the documentation and explore it using tools like Swagger UI or [Scaler Docs](https://scalar.com/).
 
 By following these steps, you’ll end up with an API that is inherently self-documenting, type-safe, and always in sync with its documentation.
 
-## Example
+## Example API
 
-- OpenAPI documentation: https://victorli-honozodopenapi.web.val.run/reference
+- Implementation of an API, **users/:id**
+- Generated OpenAPI documentation: https://victorli-honozodopenapi.web.val.run/reference
 
 <iframe width="100%" height="600px" src="https://www.val.town/embed/victorli/honozodopenapi" title="Val Town" frameborder="0" allow="web-share" allowfullscreen></iframe>
 
