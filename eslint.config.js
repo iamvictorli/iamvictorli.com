@@ -7,7 +7,7 @@ export default antfu({
 }, {
   rules: {
     'perfectionist/sort-imports': ['error', {
-      internalPattern: ['~/**'],
+      internalPattern: ['^~/.*'],
     }],
   },
 })
