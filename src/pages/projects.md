@@ -5,4 +5,4 @@ title: Victor Li's Projects
 
 # Projects
 
-- [7GUIs](https://7gui.iamvictorli.com/)
+- [7GUIs](https://7guis.iamvictorli.com/)

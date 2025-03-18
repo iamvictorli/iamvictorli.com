@@ -3,9 +3,9 @@ title: What I learned from building 7GUIs
 description: What I learned from building 7GUIs
 ---
 
-[7GUIs](https://7gui.iamvictorli.com/) is a collection of 7 frontend programming tasks comparing different implementations in other languages or frameworks. Similar to the [todomvc](https://todomvc.com/).
+[7GUIs](https://7guis.iamvictorli.com/) is a collection of 7 frontend programming tasks comparing different implementations in other languages or frameworks. Similar to the [todomvc](https://todomvc.com/).
 
-The project source code is available on [Github](https://github.com/iamvictorli/7gui).
+The project source code is available on [Github](https://github.com/iamvictorli/7guis).
 
 I wanted to build these 7 tasks using Redux as the data (state management) layer utilized for the view layer in React/React Native. This was inspired by this blog post on [UI as an afterthought](https://michel.codes/blogs/ui-as-an-afterthought).
 
@@ -15,13 +15,13 @@ Redux Toolkit is the [new standard and modern way to use redux](https://redux-to
 
 I learned to [Structure Nested/Relational State](https://redux.js.org/usage/structuring-reducers/normalizing-state-shape), using _byId_ and _allIds_.
 
-[_byId_ and _allIds_ type definitions](https://github.com/iamvictorli/7gui/blob/main/packages/state/src/types.ts)
+[_byId_ and _allIds_ type definitions](https://github.com/iamvictorli/7guis/blob/main/packages/state/src/types.ts)
 
 Usage Highlights:
 
-- [CRUD](https://github.com/iamvictorli/7gui/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/packages/state/src/crudSlice.ts#L24-L27)
-- [Circle Drawer](https://github.com/iamvictorli/7gui/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/packages/state/src/circleDrawerSlice.ts#L49-L51)
-- [Cells](https://github.com/iamvictorli/7gui/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/packages/state/src/cellsSlice.ts#L44)
+- [CRUD](https://github.com/iamvictorli/7guis/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/packages/state/src/crudSlice.ts#L24-L27)
+- [Circle Drawer](https://github.com/iamvictorli/7guis/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/packages/state/src/circleDrawerSlice.ts#L49-L51)
+- [Cells](https://github.com/iamvictorli/7guis/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/packages/state/src/cellsSlice.ts#L44)
 
 ## Building with Headless UI Libraries
 
@@ -48,12 +48,12 @@ To manage the project structure, I used pnpm to set up a monorepo. The project i
 
 ### Subpath Exports in `packages/state`
 
-To simplify imports, I added [subpath exports](https://github.com/iamvictorli/7gui/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/packages/state/package.json#L6-L35) in `packages/state`. For instance:
+To simplify imports, I added [subpath exports](https://github.com/iamvictorli/7guis/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/packages/state/package.json#L6-L35) in `packages/state`. For instance:
 
 For example:
 
 ```ts
-import { increment, selectCount } from '@7gui/state/counterSlice'
+import { increment, selectCount } from '@7guis/state/counterSlice'
 ```
 
 Resources I used to learn about monorepo setup:
@@ -71,10 +71,10 @@ Resources I used to learn about monorepo setup:
 
 Intergrating React Native Expo in a pnpm monorepo requires [a few workarounds](https://github.com/byCedric/expo-monorepo-example?tab=readme-ov-file#pnpm-workarounds)
 
-- Updates to [.npmrc](https://github.com/iamvictorli/7gui/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/.npmrc)
-- Updates to [metro config file](https://github.com/iamvictorli/7gui/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/apps/mobile/metro.config.js)
+- Updates to [.npmrc](https://github.com/iamvictorli/7guis/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/.npmrc)
+- Updates to [metro config file](https://github.com/iamvictorli/7guis/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/apps/mobile/metro.config.js)
 
-To enable importing subpaths, set **unstable_enablePackageExports** to **true** in the [metro config](https://metrobundler.dev/docs/package-exports/). [Example](https://github.com/iamvictorli/7gui/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/apps/mobile/metro.config.js#L35-L36)
+To enable importing subpaths, set **unstable_enablePackageExports** to **true** in the [metro config](https://metrobundler.dev/docs/package-exports/). [Example](https://github.com/iamvictorli/7guis/blob/6488468aeac146f3488bb5dbaff0de2d1440f094/apps/mobile/metro.config.js#L35-L36)
 
 Additional resources:
 
