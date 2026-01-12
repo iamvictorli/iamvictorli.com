@@ -9,17 +9,17 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.5",
-    "@astrojs/sitemap": "^3.6.0",
-    "astro": "^5.15.9",
+    "@astrojs/check": "^0.9.6",
+    "@astrojs/sitemap": "^3.6.1",
+    "astro": "^5.16.8",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.2.0",
+    "@antfu/eslint-config": "^6.7.3",
     "astro-eslint-parser": "^1.2.2",
     "astro-robots-txt": "^1.0.0",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "eslint-plugin-astro": "^1.5.0",
-    "eslint-plugin-format": "^1.0.2"
+    "eslint-plugin-format": "^1.2.0"
   }
 }
